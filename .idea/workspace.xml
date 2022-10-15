@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d6e40128-cb6c-480c-a464-d864f75e676b" name="Changes" comment="day 1 practice programs">
-      <change afterPath="$PROJECT_DIR$/src/Programs/RepeatWords2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programs/RepeatedWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/FirstElementOfListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testing/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HackerRankPrep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HackerRankPrep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programs/EvenNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/EvenNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programs/FirstElementOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/FirstElementOfList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programs/NumberOfElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/NumberOfElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programs/RepeatWords2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programs/RepeatWords2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -32,16 +43,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "jdk.selected.JAVA_MODULE": "18"
   }
-}</component>
-  <component name="RunManager" selected="Application.RepeatedWord">
-    <configuration name="Maximum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programs.Maximum" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="testing" />
+      <recent name="Programs" />
+      <recent name="JUnitTestingStuff" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DuplicatesInList">
+    <configuration name="DuplicatesInList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.DuplicatesInList" />
       <module name="HackerRankPrep" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +83,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NonRepeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programs.NonRepeat" />
+    <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programs.EvenNumbers" />
       <module name="HackerRankPrep" />
       <extension name="coverage">
         <pattern>
@@ -66,52 +96,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatWords2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programs.RepeatWords2" />
-      <module name="HackerRankPrep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Programs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="All in testing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatedWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programs.RepeatedWord" />
+    <configuration name="test in HackerRankPrep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Programs.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Programs.SortingList" />
+    <configuration name="testing in HackerRankPrep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HackerRankPrep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Programs.*" />
+          <option name="PATTERN" value="testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="testing" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RepeatedWord" />
-        <item itemvalue="Application.RepeatWords2" />
-        <item itemvalue="Application.SortingList" />
-        <item itemvalue="Application.NonRepeat" />
-        <item itemvalue="Application.Maximum" />
+        <item itemvalue="Application.DuplicatesInList" />
+        <item itemvalue="JUnit.test in HackerRankPrep" />
+        <item itemvalue="JUnit.All in testing" />
+        <item itemvalue="JUnit.testing in HackerRankPrep" />
+        <item itemvalue="Application.EvenNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665683183940</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day 1 practice programs">
+      <created>1665725419614</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665725419614</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

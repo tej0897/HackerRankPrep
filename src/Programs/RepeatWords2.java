@@ -5,15 +5,22 @@ import java.util.*;
 public class RepeatWords2 {
     public static void main(String[] args) {
 
-        List<String> output = new ArrayList<>();
-        List<Integer> count = new ArrayList<>();
-        String input = "long long time ago, in a galaxy far far away";
+
+        String input = " a long long time ago, in a galaxy far far away";
         String[] words = input.split(" ");
-        Map<String, Integer> map = new LinkedHashMap<>();
-        Arrays.stream(words).forEach(e->map.put(e, map.getOrDefault(e, 0) + 1));
-        map.forEach((k,v)->{
-            output.add(k);
-            count.add(v);
-        });
+        int count;
+        for (int i = 0; i < words.length; i++) {
+            count = 1;
+            for (int j = i + 1; j < words.length; j++) {
+                if (words[i].equals(words[j])) {
+                    count++;
+                    //Set words[j] to 0 to avoid printing visited word
+                    words[j] = "0";
+                }
+            }
+            if (count > 1 && words[i] != "0")
+                System.out.println(words[i]);
+
+        }
     }
 }

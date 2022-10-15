@@ -5,15 +5,12 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class NotStartsWithOne {
-    public static void main(String[] args) {
+    public List<Integer> oneCheck(List <Integer> list) {
 
-
-
-        List<Integer> list = Arrays.asList(11,15,19,45,78,191,450);
         List<Integer> finalOutput = list.stream()
                 .filter(number -> firstNumberCheck(number) != 1)
                 .toList();
-        System.out.println(finalOutput);
+        return(finalOutput);
     }
 
     public static int firstNumberCheck(int number){
